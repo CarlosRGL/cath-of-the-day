@@ -7,12 +7,13 @@ class Header extends React.Component {
         <h1>
           cath
           <span className="ofThe">
-            <span class="of">of</span> <span class="the">the</span>
+            <span className="of">of</span>
+            <span className="the">the</span>
           </span>
           day
         </h1>
         <h3 className="tagline">
-          <span>Fresh Daily</span>
+          <span>{this.props.tagline}</span>
         </h3>
       </header>
     );
