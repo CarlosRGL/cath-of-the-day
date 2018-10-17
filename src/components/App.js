@@ -31,6 +31,7 @@ class App extends React.Component {
     // 3. Call et state
     this.setState({ order });
   };
+
   render() {
     return (
       <div className="catch-of-the-day">
